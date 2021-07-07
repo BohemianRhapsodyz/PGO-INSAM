@@ -30,3 +30,4 @@ roslaunch stim300 od_sins_realtime.launch
 rosbag play example.bag
 ```
 check rostopic /ground_truth and /nav to compare the result.
+![Alt text](https://github.com/BohemianRhapsodyz/PGO-INSAM/blob/main/pic/screenshot.png)
