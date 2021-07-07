@@ -15,3 +15,17 @@ A Pose Graph Optimization version for Integrated Navitation System(GNSS/INS) bas
   cmake -DGTSAM_BUILD_WITH_MARCH_NATIVE=OFF ..
   sudo make install -j8
   ```
+### Usage
+```
+mkdir INSAM
+cd INSAM
+mkdir src
+cd src
+catkin_init_workspace
+git clone https://github.com/BohemianRhapsodyz/PGO-INSAM.git
+cd ..
+catkin_make
+source devel/setup.bash
+roslaunch stim300 od_sins_realtime.launch
+rosbag play example.bag
+```
