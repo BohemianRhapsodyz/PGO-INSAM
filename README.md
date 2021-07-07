@@ -29,3 +29,4 @@ source devel/setup.bash
 roslaunch stim300 od_sins_realtime.launch
 rosbag play example.bag
 ```
+check rostopic /ground_truth and /nav to compare the result.
