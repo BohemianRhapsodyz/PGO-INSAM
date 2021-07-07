@@ -1,0 +1,3 @@
+<launch>
+    <node pkg="stim300" type="od_sins_node" name="od_sins_node" output="screen"/>
+</launch>
